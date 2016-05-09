@@ -22,7 +22,7 @@ request({
   if (err) return console.error(err);
   const $ = cheerio.load(body);
   $('.topstory').each((index, e) => {
-    const content = $(e).children().first().text().trim();
+    const content = $(e).children().first().children().last().text().trim();
     console.log(`${content}\n`);
   });
 });
