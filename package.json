@@ -1,7 +1,7 @@
 {
   "name": "node-crawler",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node web crawler using Cheerio and Request",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
